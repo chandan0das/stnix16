@@ -3,16 +3,6 @@
 *.o
 *.bin
 
-# == Disk Images ======================================
-*.img
-*.iso
-*.hdd
-
-# == Bootable / Release ==================================
-os.img
-disk.hdd
-user/prog.hdd
-
 # == Bochs ==========================================─
 bochsrc.bxrc
 *.bochsout
