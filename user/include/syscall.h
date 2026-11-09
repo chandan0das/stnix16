@@ -48,7 +48,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define  PUTS   9         // int   _puts(const char* s);
 #define  GETS   10        // char* _gets(char* s);
 #define  ATOI   11        // int _atoi(const char* s);
-#define  PUTI   12        // int  int _puti(int n);
+#define  PUTI   12        // int _puti(int n);
 #define  PUTH   13        // int _putx(unsigned int n);
 #define  KHIT   14        // int key_hit();
 
