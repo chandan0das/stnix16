@@ -29,7 +29,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 /*                                                                           */
 /*                A 16-bit monolithic operating system for x86               */
 /*                                                                           */
-/*                           user/progs/TEST/main.c                          */
+/*                           user/progs/face/main.c                          */
 /*                                                                           */
 /*****************************************************************************/
 

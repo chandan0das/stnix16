@@ -32,7 +32,7 @@ Built-in `shell`, an assembler (`asm`) and a text editor (`micro`) that run insi
 To install everything:
 
 ```bash
-./setup_requir.sh
+./setup_require.sh
 ```
 
 ## Building and Running
@@ -57,12 +57,12 @@ make run_hdd
 Changes are saved in `disk.hdd`, so your files persist between runs.
 
 Make Target 
-- `make` | Build `os.img` |
-- `make run` | Boot the freshly built `os.img` in QEMU |
-- `make run_hdd` | Boot from `disk.hdd` (keeps files persist) |
-- `make run_term` | Like `run`, but in the terminal (curses display) |
-- `make run_hdd_term` | Like `run_hdd`, but in the terminal (curses display) |
-- `make clean` | to Remove build artifacts |
+- `make             ` : Build `os.img`
+- `make run         ` : Boot the freshly built `os.img` in QEMU
+- `make run_hdd     ` : Boot from `disk.hdd` (keeps files persist)
+- `make run_term    ` : Like `run`, but in the terminal (curses display)
+- `make run_hdd_term` : Like `run_hdd`, but in the terminal (curses display)
+- `make clean       ` : to Remove build artifacts |
 
 ## Usage
 
