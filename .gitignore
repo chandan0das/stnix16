@@ -3,7 +3,8 @@
 *.o
 *.bin
 
-# == Disk files =====================================
+# == Image & Disk files =============================
+os.img
 disk.hdd
 user/prog.hdd
 

@@ -1,6 +1,6 @@
 # STNIX 16
 
-A 16-bit, operating system for x86 (real mode). The kernel is **monolithic**.
+STNIX16 - a 16-bit, operating system for x86 (real mode). The kernel is **monolithic** with with custom Inode-based file system.
 - Written in `C` and `Assembly`
 - [`smlrc`](https://github.com/alexfru/smallerC) (Smaller C compiler by Alexey Frunze), used to compile the kernel and user programs to 16-bit real-mode code (`-seg16`)
 
