@@ -50,5 +50,9 @@ gcc -O2 -o "$TMP/SmallerC/v0100/smlrc" "$TMP/SmallerC/v0100/smlrc.c"
 sudo install -m 755 "$TMP/SmallerC/v0100/smlrc" /usr/local/bin/smlrc
 rm -rf "$TMP"
 
+# 3. blank disk images used by 'make run'
+mkdir -p user
+[ -f disk.hdd ]      || dd if=/dev/zero of=disk.hdd      bs=512 count=2880 status=none
+[ -f user/prog.hdd ] || dd if=/dev/zero of=user/prog.hdd bs=512 count=2880 status=none
 
 echo "Done. Run: make && make run"
